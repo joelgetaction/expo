@@ -1,7 +1,7 @@
 {
-  "name": "expo-core",
-  "version": "3.0.1",
-  "description": "The core Expo universal module between application code and the underlying platform",
+  "name": "@unimodules/core",
+  "version": "1.0.0",
+  "description": "Universal modules core",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -13,8 +13,7 @@
     "expo-module": "expo-module"
   },
   "keywords": [
-    "react-native",
-    "expo"
+    "unimodules"
   ],
   "repository": {
     "type": "git",
@@ -25,7 +24,7 @@
   },
   "author": "650 Industries, Inc.",
   "license": "MIT",
-  "homepage": "https://github.com/expo/expo/tree/master/packages/expo-core",
+  "homepage": "https://github.com/expo/expo/tree/master/packages/@unimodules/core",
   "jest": {
     "preset": "expo-module-scripts"
   },
