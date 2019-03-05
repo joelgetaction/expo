@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol EXFileSystemManager
+@protocol UMFileSystemManager
 
 - (NSString *)bundleDirectoryForExperienceId:(NSString *)experienceId;
 - (NSArray<NSString *> *)bundledAssetsForExperienceId:(NSString *)experienceId;

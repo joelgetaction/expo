@@ -1,6 +1,6 @@
-# expo-file-system-interface
+# unimodules-file-system-interface
 
-Interface for expo-file-system
+Interface for file system modules
 
 # Installation
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-file-system-interface
+npm install unimodules-file-system-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-file-system-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXFileSystemInterface', path: '../node_modules/expo-file-system-interface/ios'
+pod 'UMFileSystemInterface', path: '../node_modules/unimodules-file-system-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXFileSystemInterface', path: '../node_modules/expo-file-system-interface/i
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-file-system-interface'
-project(':expo-file-system-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-file-system-interface/android')
+include ':unimodules-file-system-interface'
+project(':unimodules-file-system-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-file-system-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-file-system-interface')
+api project(':unimodules-file-system-interface')
 ```
 
 # Contributing
