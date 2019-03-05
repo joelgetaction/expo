@@ -1239,20 +1239,6 @@
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.14.tgz#37daaf78069e7948520474c87b80092ea912520a"
   integrity sha512-Q5hTcfdudEL2yOmluA1zaSyPbzWPmJ3XfSWeP3RyoYvS9hnje1ZyagrZOuQ6+1nQC1Gw+7gap3pLNL3xL6UBug==
 
-"@types/lodash.omit@^4.5.4":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@types/lodash.omit/-/lodash.omit-4.5.6.tgz#f2a9518259e481a48ff7ec423420fa8fd58933e2"
-  integrity sha512-KXPpOSNX2h0DAG2w7ajpk7TXvWF28ZHs5nJhOJyP0BQHkehgr948RVsToItMme6oi0XJkp19CbuNXkIX8FiBlQ==
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash.pick@^4.4.4":
-  version "4.4.6"
-  resolved "https://registry.yarnpkg.com/@types/lodash.pick/-/lodash.pick-4.4.6.tgz#ae4e8f109e982786313bb6aac4b1a73aefa6e9be"
-  integrity sha512-u8bzA16qQ+8dY280z3aK7PoWb3fzX5ATJ0rJB6F+uqchOX2VYF02Aqa+8aYiHiHgPzQiITqCgeimlyKFy4OA6g==
-  dependencies:
-    "@types/lodash" "*"
-
 "@types/lodash.zipobject@^4.1.4":
   version "4.1.6"
   resolved "https://registry.yarnpkg.com/@types/lodash.zipobject/-/lodash.zipobject-4.1.6.tgz#75e140f44ac7d7682a18d3aae8ee4594fad094d7"
@@ -5176,6 +5162,16 @@ expo-asset-utils@^0.0.4-alpha.2:
   resolved "https://registry.yarnpkg.com/expo-asset-utils/-/expo-asset-utils-0.0.4-alpha.3.tgz#557aa99e394d6e4e6a369914b7e040a414588e78"
   integrity sha512-COMyBrFN2719uTR6c+OnpZmjG8ox2Ipa+t4VHOmrA2ErYxtIYAZs4OcYXe+1Zjn8TlUoQ3B2VC8AofB/P9h7yw==
 
+expo-barcode-scanner-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-barcode-scanner-interface/-/expo-barcode-scanner-interface-3.0.0.tgz#b4cd722746b730897f1f30b0b9aa133ebdd7d897"
+  integrity sha512-uBOPSNk8Bd3kgcDRozAUe9GSFvSBXgymJOKhPFQAIO5w6IDTfpTpse9xgwOa9WShU4EypDvrXb5WTXSCdbrCwg==
+
+expo-camera-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-camera-interface/-/expo-camera-interface-3.0.0.tgz#c1d7156d71e65f0d11f3b553448c77d7cd04527d"
+  integrity sha512-Gl/snauN9ANpyFINabRzN+hMHJ0wzvOqAapyx5Lx3meB29tJmMN68eVvD1DbE00cFpFXr9pQZJrHCNYtOVcXTA==
+
 expo-cli@^2.7.1:
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-2.11.6.tgz#9655affcc63378447cac0c57b9d4b9c0cd13f4fc"
@@ -5222,10 +5218,30 @@ expo-cli@^2.7.1:
     "@expo/traveling-fastlane-darwin" "1.8.0"
     "@expo/traveling-fastlane-linux" "1.8.0"
 
+expo-constants-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-constants-interface/-/expo-constants-interface-3.0.0.tgz#28f16c413e1484ab0236d1a344c6de23cab71dab"
+  integrity sha512-qIMby4ajdEemnFQaDj2m+ZgD4MkiTuDKCG0gNubIaF+M0T2n/dZ9IvibRuOQw1BUaBjVI3WvHvuFLRVj5qcl7g==
+
 expo-core@~2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-2.0.2.tgz#61e1e5cc6c4341a834a0d7f37c68887cee8d971f"
   integrity sha512-QKkICJ06m/J1PxTJqtVu03+fUXwjLqb2YPF5J9DT7W4EknPq1sHY3ZKJgAr1PhK24fzvVoxWOKqiIstliZdBOA==
+
+expo-core@~3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-3.0.1.tgz#500ec72ff2eb3dbdf91a7074f89e70b67293330d"
+  integrity sha512-tVg/AHDOGzRAgjyfPmsKorvI1igWAg7aYLKIjj5m7VwSMP5MuF8BYglztTd/b+zULaN8dm2YUor+KoAK9Xn+HA==
+
+expo-face-detector-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-face-detector-interface/-/expo-face-detector-interface-3.0.0.tgz#f336bb715a169ef200e3af906e6f773aaa5789a8"
+  integrity sha512-eDALB7uFCLU4KGXXa719cKlLDMnWsRSOnW/U5oVnlrfufj8/j+zp/rjJR4Biw/XgJp6+aGwPtaaj7zoIW41OiA==
+
+expo-file-system-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-file-system-interface/-/expo-file-system-interface-3.0.0.tgz#3fdf7b857ef9abba1d151f0cb9ac69992c24d42b"
+  integrity sha512-WhTcPYScRtmQJtrFX7UvFxrhHE/OQpoLtRfz7FWvT/LYxlLCDOs8dO5gNBYsUidZY+T5TqdxVH1XQXxr1KUOzw==
 
 expo-firebase-analytics@^2.0.0:
   version "2.0.0"
@@ -5235,6 +5251,11 @@ expo-firebase-analytics@^2.0.0:
     expo-core "~2.0.0"
     expo-firebase-app "~2.0.0"
 
+expo-font-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-font-interface/-/expo-font-interface-3.0.0.tgz#dd4325d00d4e315ea4cbaeed40117facd4091c97"
+  integrity sha512-H9u0ny70FGluiYSJGy2E9RydNlB+QIk6JruNzDPxTsTpi1tnr4addGDHEOwaLA6KOBroZ95O/FmwbDc4yGb04g==
+
 expo-image-loader-interface@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-image-loader-interface/-/expo-image-loader-interface-2.0.0.tgz#3934f01c4ccdea40d4248110b7da234741abf9c8"
@@ -5242,12 +5263,22 @@ expo-image-loader-interface@~2.0.0:
   dependencies:
     expo-core "~2.0.0"
 
+expo-image-loader-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-loader-interface/-/expo-image-loader-interface-3.0.0.tgz#41385bba23811f3bdcad1dcf1511cea344c3c667"
+  integrity sha512-rNJJQ3shumwn/PYgwCYxMAxYyYLITu3ZptsZD1sq0vb1Mg1GFJHUtuqxT2po6a/plhP7WmN9XzKPlKCM1vy10Q==
+
 expo-permissions-interface@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/expo-permissions-interface/-/expo-permissions-interface-2.0.0.tgz#563fd815925fd472a1b04f292afc9bef77f14774"
   integrity sha512-hk9oR6CtV2MLONdtPkKvOfpfmbJ48BDbYjvW/Na31znVvUAPHs7owckqSgh5BVoIAz8tMgp7fptaifEhPOayvg==
   dependencies:
     expo-core "~2.0.0"
+
+expo-permissions-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-permissions-interface/-/expo-permissions-interface-3.0.0.tgz#6b58bdcc9ad0d2fdd317221652fba428de608581"
+  integrity sha512-exvdrfZNiGs5fbPl3zPxGDd1GJ/SXeontlafpS2HwMoHS60sxfsUmogf4Eb/pLVSB567K6cL7cq8ad8iT4GxUg==
 
 expo-react-native-adapter@~2.0.0:
   version "2.0.0"
@@ -5260,6 +5291,26 @@ expo-react-native-adapter@~2.0.0:
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
     prop-types "^15.6.1"
+
+expo-react-native-adapter@~3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/expo-react-native-adapter/-/expo-react-native-adapter-3.0.1.tgz#6ff8c49610b4c6f43385060287910d5349a2e16e"
+  integrity sha512-QieqynpLzbYAaR8pEc3k6WsvD7xN9/hCgcYOwLihiwg43FX/yOJaIISIY9LqnT2AD9wkDKbMhz1We0KPezxtCg==
+  dependencies:
+    invariant "^2.2.4"
+    lodash.omit "^4.5.0"
+    lodash.pick "^4.4.0"
+    prop-types "^15.6.1"
+
+expo-sensors-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-sensors-interface/-/expo-sensors-interface-3.0.0.tgz#8142e26a74db842aff5d0328bb5df332f4bfe036"
+  integrity sha512-KmyHRyajHvJYofostoKg4Ppeol3ZRrwVhAPJewVPA2O9dRDGsrniTVynAjg1zqNrXUwhWUIGW5XYC1DiGXmacw==
+
+expo-task-manager-interface@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-task-manager-interface/-/expo-task-manager-interface-3.0.0.tgz#e8425f9210e76fe66167a8c39d58eddd87803047"
+  integrity sha512-PQPHNqeyFkfwowi2bcZr1nZ4l6rRiqlegfPLx7Of/8ZjdftYxjxe8Nw7uaNoh2sefH0h/4grPF8NM0tjEfO+ZA==
 
 expo-three@^3.0.0-alpha.6:
   version "3.0.0-alpha.8"
