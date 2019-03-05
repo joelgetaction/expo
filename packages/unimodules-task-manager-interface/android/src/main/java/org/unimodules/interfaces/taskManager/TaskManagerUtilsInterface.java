@@ -1,4 +1,4 @@
-package expo.interfaces.taskManager;
+package org.unimodules.interfaces.taskManager;
 
 import android.app.PendingIntent;
 import android.app.job.JobInfo;

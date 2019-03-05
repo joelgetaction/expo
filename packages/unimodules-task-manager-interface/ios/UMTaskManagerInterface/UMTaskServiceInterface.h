@@ -1,8 +1,8 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXTaskManagerInterface/EXTaskInterface.h>
+#import <UMTaskManagerInterface/UMTaskInterface.h>
 
-@protocol EXTaskServiceInterface
+@protocol UMTaskServiceInterface
 
 /**
  *  Returns boolean value whether the task with given name is already registered for given appId.
@@ -60,7 +60,7 @@
 /**
  *  Passes a reference of task manager for given appId to the service.
  */
-- (void)setTaskManager:(nonnull id<EXTaskManagerInterface>)taskManager
+- (void)setTaskManager:(nonnull id<UMTaskManagerInterface>)taskManager
               forAppId:(nonnull NSString *)appId
                withUrl:(nonnull NSString *)appUrl;
 

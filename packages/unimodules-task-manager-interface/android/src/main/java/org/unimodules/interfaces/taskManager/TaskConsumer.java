@@ -1,4 +1,4 @@
-package expo.interfaces.taskManager;
+package org.unimodules.interfaces.taskManager;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
@@ -8,7 +8,7 @@ import android.content.Intent;
 import java.lang.ref.WeakReference;
 import java.util.Map;
 
-import expo.core.interfaces.DoNotStrip;
+import org.unimodules.core.interfaces.DoNotStrip;
 
 public abstract class TaskConsumer implements TaskConsumerInterface {
   /**

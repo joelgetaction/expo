@@ -1,4 +1,4 @@
-package expo.interfaces.taskManager;
+package org.unimodules.interfaces.taskManager;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
@@ -8,7 +8,7 @@ import android.os.Bundle;
 import java.util.List;
 import java.util.Map;
 
-import expo.core.interfaces.SingletonModule;
+import org.unimodules.core.interfaces.SingletonModule;
 
 public interface TaskServiceInterface extends SingletonModule {
 

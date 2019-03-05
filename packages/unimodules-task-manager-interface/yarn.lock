@@ -2,5 +2,5 @@
 # yarn lockfile v1
 
 
-"expo-core@~2.0.0:
+"@unimodules/core@~2.0.0:
   version "2.0.0"

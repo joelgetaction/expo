@@ -1,10 +1,10 @@
 // Copyright 2018-present 650 Industries. All rights reserved.
 
-#import <EXTaskManagerInterface/EXTaskInterface.h>
+#import <UMTaskManagerInterface/UMTaskInterface.h>
 
-// Interface for EXTaskManager module.
+// Interface for UMTaskManager module.
 
-@protocol EXTaskManagerInterface
+@protocol UMTaskManagerInterface
 
 /**
  *  Returns boolean value whether task with given taskName has been registered by the app.
@@ -19,7 +19,7 @@
 /**
  *  Registers task with given name, task consumer class and options.
  *  Can throw an exception if task with given name is already registered
- *  or given consumer class doesn't conform to EXTaskConsumerInterface protocol.
+ *  or given consumer class doesn't conform to UMTaskConsumerInterface protocol.
  */
 - (void)registerTaskWithName:(nonnull NSString *)taskName
                     consumer:(Class)consumerClass

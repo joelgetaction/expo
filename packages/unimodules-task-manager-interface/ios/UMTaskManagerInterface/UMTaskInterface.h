@@ -1,9 +1,9 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
 // forward declaration for consumer interface
-@protocol EXTaskConsumerInterface;
+@protocol UMTaskConsumerInterface;
 
-@protocol EXTaskInterface
+@protocol UMTaskInterface
 
 /**
  *  Name of the task.
@@ -23,7 +23,7 @@
 /**
  *  Task consumer instance that is responsible for handling (consuming) this task.
  */
-@property (nonatomic, strong, readonly) id<EXTaskConsumerInterface> consumer;
+@property (nonatomic, strong, readonly) id<UMTaskConsumerInterface> consumer;
 
 /**
  *  Options passed to the task.

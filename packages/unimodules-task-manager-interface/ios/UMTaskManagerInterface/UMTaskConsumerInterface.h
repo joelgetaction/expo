@@ -1,14 +1,14 @@
 // Copyright 2015-present 650 Industries. All rights reserved.
 
-#import <EXTaskManagerInterface/EXTaskInterface.h>
-#import <EXTaskManagerInterface/EXTaskLaunchReason.h>
+#import <UMTaskManagerInterface/UMTaskInterface.h>
+#import <UMTaskManagerInterface/UMTaskLaunchReason.h>
 
 // Interface for task consumers. Task consumers are the objects that are responsible for handling tasks.
 // Consumers are getting signals from TaskManager (and service) about a few events that are happening during task's lifecycle.
 
-@protocol EXTaskConsumerInterface <NSObject>
+@protocol UMTaskConsumerInterface <NSObject>
 
-@property (nonatomic, strong) id<EXTaskInterface> task;
+@property (nonatomic, strong) id<UMTaskInterface> task;
 
 @required
 
@@ -18,16 +18,16 @@
 - (nonnull NSString *)taskType;
 
 /**
- *  Called by EXTaskService when the task is created and associated with the consumer.
+ *  Called by UMTaskService when the task is created and associated with the consumer.
  */
-- (void)didRegisterTask:(id<EXTaskInterface>)task;
+- (void)didRegisterTask:(id<UMTaskInterface>)task;
 
 @optional
 
 /**
  *  Static method returning boolean value whether the consumer supports launch reason.
  */
-+ (BOOL)supportsLaunchReason:(EXTaskLaunchReason)launchReason;
++ (BOOL)supportsLaunchReason:(UMTaskLaunchReason)launchReason;
 
 /**
  *  Version of the consumer. Increase returned number in case of any breaking changes made to the task consumer,
@@ -41,7 +41,7 @@
 - (void)setOptions:(nonnull NSDictionary *)options;
 
 /**
- *  Called by EXTaskService to inform the consumer that the associated task is ready to be executed.
+ *  Called by UMTaskService to inform the consumer that the associated task is ready to be executed.
  */
 - (void)didBecomeReadyToExecute;
 
@@ -51,7 +51,7 @@
 - (void)didUnregister;
 
 /**
- *  Called by EXTaskManager when the task has been completed and we received a result from JS app.
+ *  Called by UMTaskManager when the task has been completed and we received a result from JS app.
  */
 - (void)didFinish;
 

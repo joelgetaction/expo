@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, '..', 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name           = 'EXTaskManagerInterface'
+  s.name           = 'UMTaskManagerInterface'
   s.version        = package['version']
   s.summary        = package['description']
   s.description    = package['description']
@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.platform       = :ios, '10.0'
-  s.source         = { git: 'https://github.com/expo/expo-task-manager-interface.git' }
-  s.source_files   = 'EXTaskManagerInterface/**/*.{h,m}'
-  s.preserve_paths = 'EXTaskManagerInterface/**/*.{h,m}'
+  s.source         = { git: 'https://github.com/expo/unimodules-task-manager-interface.git' }
+  s.source_files   = 'UMTaskManagerInterface/**/*.{h,m}'
+  s.preserve_paths = 'UMTaskManagerInterface/**/*.{h,m}'
   s.requires_arc   = true
 end
