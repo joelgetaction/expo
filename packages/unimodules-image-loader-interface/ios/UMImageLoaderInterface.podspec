@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, '..', 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name           = 'EXImageLoaderInterface'
+  s.name           = 'UMImageLoaderInterface'
   s.version        = package['version']
   s.summary        = package['description']
   s.description    = package['description']
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage       = package['homepage']
   s.platform       = :ios, '10.0'
   s.source         = { git: 'https://github.com/expo/expo.git' }
-  s.source_files   = 'EXImageLoaderInterface/**/*.{h,m}'
-  s.preserve_paths = 'EXImageLoaderInterface/**/*.{h,m}'
+  s.source_files   = 'UMImageLoaderInterface/**/*.{h,m}'
+  s.preserve_paths = 'UMImageLoaderInterface/**/*.{h,m}'
   s.requires_arc   = true
 end
