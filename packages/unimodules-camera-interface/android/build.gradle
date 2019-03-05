@@ -12,7 +12,7 @@ buildscript {
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
-group = 'host.exp.exponent'
+group = 'org.unimodules'
 version = '3.0.0'
 
 //Upload android library to maven with javadoc and android sources
@@ -59,13 +59,13 @@ repositories {
 }
 
 if (new File(rootProject.projectDir.parentFile, 'package.json').exists()) {
-  apply from: project(":expo-core").file("../expo-core.gradle")
+  apply from: project(":unimodules-core").file("../unimodules-core.gradle")
 } else {
   throw new GradleException(
-      "'expo-core.gradle' was not found in the usual Flutter or React Native dependency locations. " +
+      "'unimodules-core.gradle' was not found in the usual Flutter or React Native dependency locations. " +
           "This package can only be used in such projects. Are you sure you've installed the dependencies properly?")
 }
 
 dependencies {
-  expendency 'expo-core'
+  expendency 'unimodules-core'
 }
