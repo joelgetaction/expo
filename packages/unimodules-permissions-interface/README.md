@@ -1,6 +1,6 @@
-# expo-permissions-interface
+# unimodules-permissions-interface
 
-An interface for expo-permissions
+An interface for permissions
 
 # Installation
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-permissions-interface
+npm install unimodules-permissions-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-permissions-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXPermissionsInterface', path: '../node_modules/expo-permissions-interface/ios'
+pod 'UMPermissionsInterface', path: '../node_modules/unimodules-permissions-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXPermissionsInterface', path: '../node_modules/expo-permissions-interface/
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-permissions-interface'
-project(':expo-permissions-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-permissions-interface/android')
+include ':unimodules-permissions-interface'
+project(':unimodules-permissions-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-permissions-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-permissions-interface')
+api project(':unimodules-permissions-interface')
 ```
 
 # Contributing

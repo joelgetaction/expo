@@ -1,4 +1,4 @@
-package expo.interfaces.permissions;
+package org.unimodules.interfaces.permissions;
 
 public interface Permissions {
   /**

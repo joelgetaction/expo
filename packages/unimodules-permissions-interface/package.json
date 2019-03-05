@@ -1,11 +1,10 @@
 {
-  "name": "expo-permissions-interface",
-  "version": "3.0.0",
-  "description": "An interface for expo-permissions",
+  "name": "unimodules-permissions-interface",
+  "version": "1.0.0",
+  "description": "An interface for permissions modules",
   "main": "index.js",
   "keywords": [
-    "react-native",
-    "expo",
+    "unimodules",
     "permissions"
   ],
   "repository": {
@@ -15,11 +14,8 @@
   "bugs": {
     "url": "https://github.com/expo/expo/issues"
   },
-  "devDependencies": {
-    "expo-module-scripts": "^1.0.0"
-  },
   "author": "650 Industries, Inc.",
   "license": "MIT",
-  "homepage": "https://github.com/expo/expo/tree/master/packages/expo-permissions-interface",
+  "homepage": "https://github.com/expo/expo/tree/master/packages/unimodules-permissions-interface",
   "gitHead": "d87c47ba13c7dde7a5d120caf873c98258a42710"
 }
