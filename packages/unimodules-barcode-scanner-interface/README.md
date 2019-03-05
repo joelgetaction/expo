@@ -1,6 +1,6 @@
-# expo-barcode-scanner-interface
+# unimodules-barcode-scanner-interface
 
-An interface for expo-barcode-scanner.
+An interface for bar code scanners.
 
 # Installation
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-barcode-scanner-interface
+npm install unimodules-barcode-scanner-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-barcode-scanner-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXBarCodeScannerInterface', path: '../node_modules/expo-barcode-scanner-interface/ios'
+pod 'UMBarCodeScannerInterface', path: '../node_modules/unimodules-barcode-scanner-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,15 +27,15 @@ pod 'EXBarCodeScannerInterface', path: '../node_modules/expo-barcode-scanner-int
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-barcode-scanner-interface'
-project(':expo-barcode-scanner-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-barcode-scanner-interface/android')
+include ':unimodules-barcode-scanner-interface'
+project(':unimodules-barcode-scanner-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-barcode-scanner-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-barcode-scanner-interface')
+api project(':unimodules-barcode-scanner-interface')
 ```
 
 # Contributing
 
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide]( https://github.com/expo/expo#contributing).
+Contributions are very welcome! Please refer to guidelines described in the [contributing guide](https://github.com/expo/expo#contributing).

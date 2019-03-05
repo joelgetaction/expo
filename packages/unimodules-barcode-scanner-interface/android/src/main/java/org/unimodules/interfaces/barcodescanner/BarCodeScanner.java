@@ -1,4 +1,4 @@
-package expo.interfaces.barcodescanner;
+package org.unimodules.interfaces.barcodescanner;
 
 import android.graphics.Bitmap;
 

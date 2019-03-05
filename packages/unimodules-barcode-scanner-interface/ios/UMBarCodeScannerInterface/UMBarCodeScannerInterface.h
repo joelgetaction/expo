@@ -4,7 +4,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <UIKit/UIKit.h>
 
-@protocol EXBarCodeScannerInterface
+@protocol UMBarCodeScannerInterface
 
 - (void)setSession:(AVCaptureSession *)session;
 - (void)setSessionQueue:(dispatch_queue_t)sessionQueue;
