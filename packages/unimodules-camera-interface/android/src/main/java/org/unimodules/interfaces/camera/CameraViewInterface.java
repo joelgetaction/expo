@@ -1,10 +1,8 @@
-package expo.interfaces.camera;
+package org.unimodules.interfaces.camera;
 
 import android.graphics.SurfaceTexture;
 
-public interface ExpoCameraViewInterface {
-
+public interface CameraViewInterface {
   void setPreviewTexture(SurfaceTexture surfaceTexture);
-
   int[] getPreviewSizeAsArray();
 }

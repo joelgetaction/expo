@@ -2,7 +2,7 @@
 
 #import <AVKit/AVKit.h>
 
-@protocol EXCameraInterface
+@protocol UMCameraInterface
 
 @property (nonatomic, strong) dispatch_queue_t sessionQueue;
 @property (nonatomic, strong) AVCaptureSession *session;

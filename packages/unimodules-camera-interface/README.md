@@ -1,6 +1,6 @@
-# expo-camera-interface
+# unimodules-camera-interface
 
-expo-camera interface package.
+An interface package for camera.
 
 # Installation
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-camera-interface
+npm install unimodules-camera-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-camera-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXCameraInterface', path: '../node_modules/expo-camera-interface/ios'
+pod 'UMCameraInterface', path: '../node_modules/unimodules-camera-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXCameraInterface', path: '../node_modules/expo-camera-interface/ios'
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-camera-interface'
-project(':expo-camera-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-camera-interface/android')
+include ':unimodules-camera-interface'
+project(':unimodules-camera-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-camera-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-camera-interface')
+api project(':unimodules-camera-interface')
 ```
 
 # Contributing
