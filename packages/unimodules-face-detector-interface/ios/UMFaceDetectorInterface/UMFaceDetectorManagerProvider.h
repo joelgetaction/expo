@@ -1,8 +1,8 @@
 // Copyright © 2018 650 Industries. All rights reserved.
 
-#import <EXFaceDetectorInterface/EXFaceDetectorManager.h>
+#import <UMFaceDetectorInterface/UMFaceDetectorManager.h>
 
-@protocol EXFaceDetectorManagerProvider
+@protocol UMFaceDetectorManagerProvider
 
 - (id<EXFaceDetectorManager>)createFaceDetectorManager;
 

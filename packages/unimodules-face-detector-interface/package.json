@@ -1,11 +1,10 @@
 {
-  "name": "expo-face-detector-interface",
+  "name": "unimodules-face-detector-interface",
   "version": "3.0.0",
-  "description": "Expo interface package for Face Detector",
+  "description": "An interface package for Face Detector",
   "main": "index.js",
   "keywords": [
-    "react-native",
-    "expo",
+    "unimodules",
     "face-detector",
     "face",
     "detection"
@@ -19,6 +18,6 @@
   },
   "author": "650 Industries, Inc.",
   "license": "MIT",
-  "homepage": "https://github.com/expo/expo/tree/master/packages/expo-face-detector-interface",
+  "homepage": "https://github.com/expo/expo/tree/master/packages/unimodules-face-detector-interface",
   "gitHead": "d87c47ba13c7dde7a5d120caf873c98258a42710"
 }

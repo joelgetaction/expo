@@ -1,4 +1,4 @@
-package expo.interfaces.facedetector;
+package org.unimodules.interfaces.facedetector;
 
 import android.content.Context;
 
