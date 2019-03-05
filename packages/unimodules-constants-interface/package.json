@@ -14,9 +14,6 @@
   "bugs": {
     "url": "https://github.com/expo/expo/issues"
   },
-  "devDependencies": {
-    "unimodules-module-scripts": "^1.0.0"
-  },
   "author": "650 Industries, Inc.",
   "license": "MIT",
   "homepage": "https://github.com/expo/expo/tree/master/packages/unimodules-constants-interface",
