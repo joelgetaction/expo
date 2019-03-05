@@ -1,11 +1,10 @@
 {
-  "name": "expo-image-loader-interface",
-  "version": "3.0.0",
+  "name": "unimodules-image-loader-interface",
+  "version": "1.0.0",
   "description": "Interface for ImageLoader",
   "main": "index.js",
   "keywords": [
-    "react-native",
-    "expo",
+    "unimodules",
     "image-loader"
   ],
   "repository": {
@@ -15,11 +14,8 @@
   "bugs": {
     "url": "https://github.com/expo/expo/issues"
   },
-  "devDependencies": {
-    "expo-module-scripts": "^1.0.0"
-  },
   "author": "650 Industries, Inc.",
   "license": "MIT",
-  "homepage": "https://github.com/expo/expo/tree/master/packages/expo-image-loader-interface",
+  "homepage": "https://github.com/expo/expo/tree/master/packages/unimodules-image-loader-interface",
   "gitHead": "d87c47ba13c7dde7a5d120caf873c98258a42710"
 }

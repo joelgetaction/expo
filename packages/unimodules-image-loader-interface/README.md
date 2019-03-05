@@ -1,4 +1,4 @@
-# expo-image-loader-interface
+# unimodules-image-loader-interface
 
 Interface for ImageLoader
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-image-loader-interface
+npm install unimodules-image-loader-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-image-loader-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXImageLoaderInterface', path: '../node_modules/expo-image-loader-interface/ios'
+pod 'UMImageLoaderInterface', path: '../node_modules/unimodules-image-loader-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXImageLoaderInterface', path: '../node_modules/expo-image-loader-interface
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-image-loader-interface'
-project(':expo-image-loader-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-image-loader-interface/android')
+include ':unimodules-image-loader-interface'
+project(':unimodules-image-loader-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-image-loader-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-image-loader-interface')
+api project(':unimodules-image-loader-interface')
 ```
 
 # Contributing

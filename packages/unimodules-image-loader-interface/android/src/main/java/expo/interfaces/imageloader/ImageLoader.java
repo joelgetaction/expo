@@ -1,4 +1,4 @@
-package expo.interfaces.imageloader;
+package org.unimodules.interfaces.imageloader;
 
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
