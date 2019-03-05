@@ -1,4 +1,4 @@
-package expo.interfaces.constants;
+package org.unimodules.interfaces.constants;
 
 import java.util.List;
 import java.util.Map;

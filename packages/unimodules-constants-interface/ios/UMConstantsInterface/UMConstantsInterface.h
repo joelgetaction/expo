@@ -1,6 +1,6 @@
 // Copyright 2018-present 650 Industries. All rights reserved.
 
-@protocol EXConstantsInterface
+@protocol UMConstantsInterface
 
 @property (nonatomic, readonly) NSString *appOwnership;
 @property (nonatomic, readonly) NSString *experienceId;

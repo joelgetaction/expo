@@ -1,6 +1,6 @@
-# expo-constants-interface
+# unimodules-constants-interface
 
-An interface for expo-constants.
+An interface for unimodules-constants.
 
 # Installation
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-constants-interface
+npm install unimodules-constants-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-constants-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXConstantsInterface', path: '../node_modules/expo-constants-interface/ios'
+pod 'EXConstantsInterface', path: '../node_modules/unimodules-constants-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXConstantsInterface', path: '../node_modules/expo-constants-interface/ios'
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-constants-interface'
-project(':expo-constants-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-constants-interface/android')
+include ':unimodules-constants-interface'
+project(':unimodules-constants-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-constants-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-constants-interface')
+api project(':unimodules-constants-interface')
 ```
 
 # Contributing
