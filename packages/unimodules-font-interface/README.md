@@ -1,4 +1,4 @@
-# expo-font-interface
+# unimodules-font-interface
 
 Interface for managing fonts
 
@@ -11,7 +11,7 @@ For bare React Native projects, you must ensure that you have [installed and con
 ### Add the package to your npm dependencies
 
 ```
-npm install expo-font-interface
+npm install unimodules-font-interface
 ```
 
 ### Configure for iOS
@@ -19,7 +19,7 @@ npm install expo-font-interface
 Add the dependency to your `Podfile` and then run `pod install`.
 
 ```ruby
-pod 'EXFontInterface', path: '../node_modules/expo-font-interface/ios'
+pod 'UMFontInterface', path: '../node_modules/unimodules-font-interface/ios'
 ```
 
 ### Configure for Android
@@ -27,13 +27,13 @@ pod 'EXFontInterface', path: '../node_modules/expo-font-interface/ios'
 1. Append the following lines to `android/settings.gradle`:
 
 ```gradle
-include ':expo-font-interface'
-project(':expo-font-interface').projectDir = new File(rootProject.projectDir, '../node_modules/expo-font-interface/android')
+include ':unimodules-font-interface'
+project(':unimodules-font-interface').projectDir = new File(rootProject.projectDir, '../node_modules/unimodules-font-interface/android')
 ```
 
 2. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 ```gradle
-api project(':expo-font-interface')
+api project(':unimodules-font-interface')
 ```
 
 # Contributing

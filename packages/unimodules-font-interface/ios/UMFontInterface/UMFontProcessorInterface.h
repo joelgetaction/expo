@@ -1,6 +1,6 @@
 // Copyright 2018-present 650 Industries. All rights reserved.
 
-@protocol EXFontProcessorInterface
+@protocol UMFontProcessorInterface
 
 - (UIFont *)updateFont:(UIFont *)uiFont
               withFamily:(NSString *)family
