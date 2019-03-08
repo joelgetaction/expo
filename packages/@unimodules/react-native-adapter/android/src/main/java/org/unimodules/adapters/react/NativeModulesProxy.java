@@ -10,6 +10,11 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableType;
 
+import org.unimodules.core.ExportedModule;
+import org.unimodules.core.ModuleRegistry;
+import org.unimodules.core.ViewManager;
+import org.unimodules.core.interfaces.ExpoMethod;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -19,17 +24,12 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import org.unimodules.core.ExportedModule;
-import org.unimodules.core.ModuleRegistry;
-import org.unimodules.core.ViewManager;
-import org.unimodules.core.interfaces.ExpoMethod;
-
 /**
  * A wrapper/proxy for all {@link ExportedModule}s, gets exposed as {@link com.facebook.react.bridge.NativeModule},
  * so that JS code can call methods of the internal modules.
  */
 public class NativeModulesProxy extends ReactContextBaseJavaModule {
-  private final static String NAME = "ExpoNativeModuleProxy";
+  private final static String NAME = "NativeUnimoduleProxy";
   private final static String VIEW_MANAGERS_NAMES_KEY = "viewManagersNames";
   private final static String MODULES_CONSTANTS_KEY = "modulesConstants";
   private final static String EXPORTED_METHODS_KEY = "exportedMethods";
@@ -121,9 +121,9 @@ public class NativeModulesProxy extends ReactContextBaseJavaModule {
       promise.reject(UNEXPECTED_ERROR, "Encountered an exception while calling native method: " + e.getMessage(), e);
     } catch (NoSuchMethodException e) {
       promise.reject(
-              UNDEFINED_METHOD_ERROR,
-              "Method " + methodName + " of Java module " + moduleName + " is undefined.",
-              e
+          UNDEFINED_METHOD_ERROR,
+          "Method " + methodName + " of Java module " + moduleName + " is undefined.",
+          e
       );
     }
   }
