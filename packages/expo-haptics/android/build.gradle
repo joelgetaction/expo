@@ -64,7 +64,6 @@ if (new File(rootProject.projectDir.parentFile, 'package.json').exists()) {
 
 dependencies {
   unimodule 'unimodules-core'
-  unimodule 'expo-errors'
 
   api 'com.android.support:support-annotations:27.1.1'
 }

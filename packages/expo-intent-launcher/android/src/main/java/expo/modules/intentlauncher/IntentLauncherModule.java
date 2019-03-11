@@ -17,8 +17,8 @@ import org.unimodules.core.interfaces.ActivityProvider;
 import org.unimodules.core.interfaces.ExpoMethod;
 import org.unimodules.core.interfaces.ModuleRegistryConsumer;
 import org.unimodules.core.interfaces.services.UIManager;
-import expo.errors.CurrentActivityNotFoundException;
-import expo.errors.ModuleNotFoundException;
+import org.unimodules.core.errors.CurrentActivityNotFoundException;
+import org.unimodules.core.errors.ModuleNotFoundException;
 import expo.modules.intentlauncher.exceptions.ActivityAlreadyStartedException;
 
 public class IntentLauncherModule extends ExportedModule implements ModuleRegistryConsumer, ActivityEventListener {

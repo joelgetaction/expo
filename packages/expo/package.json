@@ -85,7 +85,6 @@
     "expo-contacts": "~3.0.0",
     "expo-crypto": "~3.0.0",
     "expo-document-picker": "~3.0.0",
-    "expo-errors": "~3.0.0",
     "expo-face-detector": "~3.0.0",
     "unimodules-face-detector-interface": "~1.0.0",
     "expo-facebook": "~3.0.0",

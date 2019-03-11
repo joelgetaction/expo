@@ -32,7 +32,6 @@
   },
   "unimodulePeerDependencies": {
     "@unimodules/core": "*",
-    "expo-errors": "*",
     "unimodules-camera-interface": "*",
     "unimodules-barcode-scanner-interface": "*",
     "unimodules-file-system-interface": "*",

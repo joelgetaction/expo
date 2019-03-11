@@ -1,4 +1,4 @@
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 export function requireNativeViewManager(viewName) {
     throw new UnavailabilityError('@unimodules/react-native-adapter', 'requireNativeViewManager');
 }

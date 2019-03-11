@@ -36,7 +36,6 @@
   "unimodulePeerDependencies": {
     "unimodules-camera-interface": "*",
     "@unimodules/core": "*",
-    "expo-errors": "*",
     "unimodules-file-system-interface": "*",
     "expo-gl-cpp": "*"
   },

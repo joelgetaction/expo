@@ -1,5 +1,5 @@
 import { EventEmitter } from '@unimodules/core';
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 import AdMobNativeModule from './ExpoAdsAdMobInterstitialManager';
 const moduleName = 'AdMobInterstitial';
 const eventNames = [

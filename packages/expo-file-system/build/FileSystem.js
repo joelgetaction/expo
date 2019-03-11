@@ -1,4 +1,4 @@
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 import { EventEmitter } from '@unimodules/core';
 import UUID from 'uuid-js';
 import ExponentFileSystem from './ExponentFileSystem';

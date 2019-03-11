@@ -36,7 +36,6 @@
   },
   "unimodulePeerDependencies": {
     "@unimodules/core": "*",
-    "expo-errors": "*",
     "unimodules-permissions-interface": "*"
   },
   "devDependencies": {

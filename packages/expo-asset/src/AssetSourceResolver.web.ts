@@ -1,5 +1,5 @@
 import { Platform } from '@unimodules/core';
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 import invariant from 'invariant';
 import { Dimensions } from 'react-native';
 

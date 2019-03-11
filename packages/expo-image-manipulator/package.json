@@ -30,7 +30,6 @@
   "homepage": "https://docs.expo.io/versions/latest/sdk/imagemanipulator/",
   "unimodulePeerDependencies": {
     "@unimodules/core": "*",
-    "expo-errors": "*",
     "unimodules-file-system-interface": "*"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 import * as TaskManager from 'expo-task-manager';
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 import { Platform, NativeModulesProxy } from '@unimodules/core';
 
 const { ExpoBackgroundFetch } = NativeModulesProxy;

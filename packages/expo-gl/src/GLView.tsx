@@ -6,7 +6,7 @@ import { Platform, View, ViewPropTypes, findNodeHandle } from 'react-native';
 const packageJSON = require('../package.json');
 
 import { SurfaceCreateEvent, GLSnapshot, ExpoWebGLRenderingContext, SnapshotOptions, BaseGLViewProps } from './GLView.types';
-import { UnavailabilityError } from 'expo-errors';
+import { UnavailabilityError } from '@unimodules/core';
 
 declare let global: any;
 

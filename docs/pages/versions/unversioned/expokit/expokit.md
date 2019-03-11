@@ -107,6 +107,7 @@ If upgrading from SDK32 or below:
     - `host.exp.exponent:expo-core:*` to `org.unimodules:core:+`
     - `host.exp.exponent:expo-react-native-adapter:*` to `org.unimodules:react-native-adapter:+`
     - `host.exp.exponent:expo-<anything>-interface:*` to `org.unimodules:unimodules-<that something>-interface:+`
+2. remove `expo-errors` dependency from `build.gradle`.
 2. you will need to change some imported packages in `MainApplication` from `host.exp.exponent.` to `org.unimodules.`.
 
 If upgrading from SDK31 or below:
@@ -117,7 +118,6 @@ If upgrading from SDK31 or below:
     api 'org.unimodules:core:+'
     api 'org.unimodules:unimodules-constants-interface:+'
     api 'host.exp.exponent:expo-constants:+'
-    api 'host.exp.exponent:expo-errors:+'
     api 'org.unimodules:unimodules-file-system-interface:+'
     api 'host.exp.exponent:expo-file-system:+'
     api 'org.unimodules:unimodules-image-loader-interface:+'

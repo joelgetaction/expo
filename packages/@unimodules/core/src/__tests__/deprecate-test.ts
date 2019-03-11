@@ -1,5 +1,7 @@
 import * as Errors from '../Errors';
 
+const packageName = '@unimodules/core';
+
 describe('deprecate', () => {
   describe('warnings', () => {
     const originalWarning = console.warn;
@@ -11,7 +13,7 @@ describe('deprecate', () => {
     it(`warns of a future replacement`, async () => {
       console.warn = jest.fn();
 
-      Errors.deprecate('expo-errors', 'foo', {
+      Errors.deprecate(packageName, 'foo', {
         replacement: 'bar',
         currentVersion: '1.0.0',
         versionToRemove: '2.0.0',
@@ -24,7 +26,7 @@ describe('deprecate', () => {
     it(`warns of a future deprecation`, async () => {
       console.warn = jest.fn();
 
-      Errors.deprecate('expo-errors', 'foo', {
+      Errors.deprecate(packageName, 'foo', {
         currentVersion: '1.0.0',
         versionToRemove: '2.0.0',
       });
@@ -36,18 +38,18 @@ describe('deprecate', () => {
 
   describe('errors', () => {
     it(`throws a deprecation error without expiration`, async () => {
-      expect(() => Errors.deprecate('expo-errors', 'foo')).toThrowErrorMatchingSnapshot();
+      expect(() => Errors.deprecate(packageName, 'foo')).toThrowErrorMatchingSnapshot();
     });
 
     it(`throws an error with the replacement`, async () => {
       expect(() =>
-        Errors.deprecate('expo-errors', 'foo', { replacement: 'bar' })
+        Errors.deprecate(packageName, 'foo', { replacement: 'bar' })
       ).toThrowErrorMatchingSnapshot();
     });
 
     it(`throws an error with the replacement after the expiration`, async () => {
       expect(() =>
-        Errors.deprecate('expo-errors', 'foo', {
+        Errors.deprecate(packageName, 'foo', {
           replacement: 'bar',
           currentVersion: '2.0.0',
           versionToRemove: '1.0.0',
@@ -57,7 +59,7 @@ describe('deprecate', () => {
 
     it(`throws a deprecation error after expiration`, async () => {
       expect(() =>
-        Errors.deprecate('expo-errors', 'foo', {
+        Errors.deprecate(packageName, 'foo', {
           currentVersion: '2.0.0',
           versionToRemove: '1.0.0',
         })

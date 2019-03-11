@@ -5242,6 +5242,11 @@ expo-core@~3.0.0:
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-3.0.1.tgz#500ec72ff2eb3dbdf91a7074f89e70b67293330d"
   integrity sha512-tVg/AHDOGzRAgjyfPmsKorvI1igWAg7aYLKIjj5m7VwSMP5MuF8BYglztTd/b+zULaN8dm2YUor+KoAK9Xn+HA==
 
+expo-errors@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/expo-errors/-/expo-errors-3.0.0.tgz#4c3cef59ce446fdbb551c90dde6509926fe5d738"
+  integrity sha512-23QT4Gr6Z2KOd60NnPokyNOaPfdimMume3CH8cRgRG/4nqsM4nzGIIPN/n7m6nHYV8XUK7mLNzvN+Xzkb+Sjqg==
+
 expo-face-detector-interface@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/expo-face-detector-interface/-/expo-face-detector-interface-3.0.0.tgz#f336bb715a169ef200e3af906e6f773aaa5789a8"

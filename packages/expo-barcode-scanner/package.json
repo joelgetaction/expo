@@ -33,7 +33,6 @@
   },
   "unimodulePeerDependencies": {
     "@unimodules/core": "*",
-    "expo-errors": "*",
     "unimodules-barcode-scanner-interface": "*"
   },
   "dependencies": {

@@ -1,4 +1,4 @@
-package expo.errors;
+package org.unimodules.core.errors;
 
 import org.unimodules.core.interfaces.CodedThrowable;
 

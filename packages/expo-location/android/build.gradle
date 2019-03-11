@@ -64,7 +64,6 @@ if (new File(rootProject.projectDir.parentFile, 'package.json').exists()) {
 
 dependencies {
   unimodule "unimodules-core"
-  unimodule "expo-errors"
   unimodule "unimodules-permissions-interface"
   unimodule "unimodules-task-manager-interface"
 

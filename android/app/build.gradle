@@ -233,7 +233,6 @@ dependencies {
   api 'host.exp.exponent:unimodules-constants-interface:3.0.0'
   api 'host.exp.exponent:expo-constants:3.0.0'
   api 'host.exp.exponent:expo-document-picker:3.0.0'
-  api 'host.exp.exponent:expo-errors:3.0.0'
   api 'host.exp.exponent:unimodules-file-system-interface:3.0.1'
   api 'host.exp.exponent:expo-file-system:3.0.1'
   api 'host.exp.exponent:unimodules-image-loader-interface:3.0.0'

@@ -21,7 +21,6 @@
 /packages/unimodules-constants-interface        @tsapeta
 /packages/expo-contacts                   @EvanBacon
 /packages/expo-document-picker            @bbarthec
-/packages/expo-errors                     @esamelson
 /packages/expo-face-detector              @sjchmiela
 /packages/unimodules-face-detector-interface    @sjchmiela
 /packages/expo-facebook                   @sjchmiela

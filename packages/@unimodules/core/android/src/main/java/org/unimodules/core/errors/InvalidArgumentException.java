@@ -1,4 +1,4 @@
-package expo.errors;
+package org.unimodules.core.errors;
 
 /**
  * Exception for mismatched host-to-native interfaces. Compared to a Java-only

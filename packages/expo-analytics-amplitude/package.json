@@ -31,8 +31,7 @@
   },
   "homepage": "https://docs.expo.io/versions/latest/sdk/amplitude/",
   "unimodulePeerDependencies": {
-    "@unimodules/core": "*",
-    "expo-errors": "*"
+    "@unimodules/core": "*"
   },
   "devDependencies": {
     "expo-module-scripts": "^1.0.0"
