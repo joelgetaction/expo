@@ -15,19 +15,19 @@
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-font-interface</artifactId>
+      <artifactId>expo-font-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-permissions-interface</artifactId>
+      <artifactId>expo-permissions-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-image-loader-interface</artifactId>
+      <artifactId>expo-image-loader-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>

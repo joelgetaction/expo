@@ -33,13 +33,13 @@
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-permissions-interface</artifactId>
+      <artifactId>expo-permissions-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-task-manager-interface</artifactId>
+      <artifactId>expo-task-manager-interface</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>

@@ -15,37 +15,37 @@
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-barcode-scanner-interface</artifactId>
+      <artifactId>expo-barcode-scanner-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-face-detector-interface</artifactId>
+      <artifactId>expo-face-detector-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-permissions-interface</artifactId>
+      <artifactId>expo-permissions-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-file-system-interface</artifactId>
+      <artifactId>expo-file-system-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-image-loader-interface</artifactId>
+      <artifactId>expo-image-loader-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>host.exp.exponent</groupId>
-      <artifactId>unimodules-camera-interface</artifactId>
+      <artifactId>expo-camera-interface</artifactId>
       <version>2.0.0</version>
       <scope>compile</scope>
     </dependency>
