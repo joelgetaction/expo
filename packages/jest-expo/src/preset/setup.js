@@ -200,9 +200,9 @@ jest.mock('react-native-gesture-handler', () => {
 
 jest.doMock('react-native/Libraries/BatchedBridge/NativeModules', () => mockNativeModules);
 
-jest.mock('expo-react-native-adapter', () => {
-  const ExpoReactNativeAdapter = require.requireActual('expo-react-native-adapter');
-  const { NativeModulesProxy } = ExpoReactNativeAdapter;
+jest.mock('@unimodules/react-native-adapter', () => {
+  const ReactNativeAdapter = require.requireActual('@unimodules/react-native-adapter');
+  const { NativeModulesProxy } = ReactNativeAdapter;
 
   // After the NativeModules mock is set up, we can mock NativeModuleProxy's functions that call
   // into the native proxy module. We're not really interested in checking whether the underlying
@@ -220,5 +220,5 @@ jest.mock('expo-react-native-adapter', () => {
     }
   }
 
-  return ExpoReactNativeAdapter;
+  return ReactNativeAdapter;
 });

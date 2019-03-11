@@ -31,9 +31,9 @@
   "license": "MIT",
   "homepage": "https://docs.expo.io/versions/latest/sdk/task-manager/",
   "unimodulePeerDependencies": {
-    "expo-core": "*",
+    "@unimodules/core": "*",
     "expo-errors": "*",
-    "expo-task-manager-interface": "*"
+    "unimodules-task-manager-interface": "*"
   },
   "devDependencies": {
     "expo-module-scripts": "^1.0.0"

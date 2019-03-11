@@ -30,7 +30,7 @@
   "license": "MIT",
   "homepage": "https://docs.expo.io/versions/latest/sdk/haptics/",
   "unimodulePeerDependencies": {
-    "expo-core": "*",
+    "@unimodules/core": "*",
     "expo-errors": "*"
   },
   "devDependencies": {

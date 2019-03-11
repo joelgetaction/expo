@@ -35,9 +35,9 @@
   },
   "unimodulePeerDependencies": {
     "@unimodules/core": "~1.0.0",
-    "expo-font-interface": "*",
-    "expo-image-loader-interface": "*",
-    "expo-permissions-interface": "*"
+    "unimodules-font-interface": "*",
+    "unimodules-image-loader-interface": "*",
+    "unimodules-permissions-interface": "*"
   },
   "dependencies": {
     "invariant": "^2.2.4",

@@ -32,7 +32,7 @@
     "nullthrows": "^1.1.0"
   },
   "unimodulePeerDependencies": {
-    "expo-core": "*",
+    "@unimodules/core": "*",
     "expo-errors": "^1.0.0"
   },
   "devDependencies": {

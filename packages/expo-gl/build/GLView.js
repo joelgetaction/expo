@@ -1,6 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { NativeModulesProxy, requireNativeViewManager } from 'expo-core';
+import { NativeModulesProxy, requireNativeViewManager } from '@unimodules/core';
 import { Platform, View, ViewPropTypes, findNodeHandle } from 'react-native';
 const packageJSON = require('../package.json');
 import { UnavailabilityError } from 'expo-errors';

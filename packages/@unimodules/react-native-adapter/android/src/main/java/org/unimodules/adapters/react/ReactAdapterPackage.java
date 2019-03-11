@@ -16,7 +16,7 @@ import org.unimodules.core.interfaces.InternalModule;
 import org.unimodules.core.interfaces.Package;
 
 /**
- * A {@link Package} creating modules provided with the expo-react-native-adapter package.
+ * A {@link Package} creating modules provided with the @unimodules/react-native-adapter package.
  */
 public class ReactAdapterPackage extends BasePackage {
   @Override

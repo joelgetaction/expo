@@ -229,7 +229,7 @@ dependencies {
   /* UNCOMMENT WHEN DISTRIBUTING
   api 'com.facebook.react:react-native:32.0.0'
   api 'host.exp.exponent:expo-app-loader-provider:3.0.0'
-  api 'host.exp.exponent:expo-core:3.0.1'
+  api 'host.exp.exponent:unimodules-core:3.0.1'
   api 'host.exp.exponent:unimodules-constants-interface:3.0.0'
   api 'host.exp.exponent:expo-constants:3.0.0'
   api 'host.exp.exponent:expo-document-picker:3.0.0'
