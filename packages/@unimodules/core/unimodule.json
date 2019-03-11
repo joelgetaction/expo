@@ -1,4 +1,4 @@
 {
-  "name": "@unimodules/core",
+  "name": "unimodules-core",
   "platforms": ["ios", "android"]
 }
